@@ -1,6 +1,8 @@
 # HaidoraThemeKit
 UIKit appearance 的封装。
 
+![](png/theme.png)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
