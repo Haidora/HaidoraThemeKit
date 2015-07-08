@@ -1,0 +1,14 @@
+PODS:
+  - HaidoraThemeKit (0.1.0)
+
+DEPENDENCIES:
+  - HaidoraThemeKit (from `../`)
+
+EXTERNAL SOURCES:
+  HaidoraThemeKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HaidoraThemeKit: 50348ec1cb171e018c36140951782335ad2e6a2d
+
+COCOAPODS: 0.37.2
