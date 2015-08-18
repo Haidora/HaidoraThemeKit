@@ -26,7 +26,7 @@ extension UINavigationBar: HDThemeStyle {
     */
     public static func applyHDTheme(navigationTitleColor: UIColor?,
         navigationBackground: UIColor? = nil,
-        navigationTitleFont: UIFont? = UIFont.boldSystemFontOfSize(16),
+        navigationTitleFont: UIFont? = UIFont.boldSystemFontOfSize(20),
         navigationItemColor: UIColor = UIColor.whiteColor(),
         navigationBarStyle: UIBarStyle = UIBarStyle.Default) {
         UINavigationBar.appearance().tintColor = navigationItemColor

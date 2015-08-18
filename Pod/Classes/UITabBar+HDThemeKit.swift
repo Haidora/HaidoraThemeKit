@@ -34,6 +34,6 @@ extension UITabBar: HDThemeStyle {
         UITabBar.appearance().barTintColor = tabbarBackground
         UITabBar.appearance().tintColor = barItemTintColor
         UITabBar.appearance().barStyle = barStyle
-        UITabBar.appearance().translucent = translucent
+//        UITabBar.appearance().translucent = translucent
     }
 }

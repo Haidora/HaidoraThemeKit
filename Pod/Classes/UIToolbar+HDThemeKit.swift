@@ -34,6 +34,6 @@ extension UIToolbar: HDThemeStyle {
         UIToolbar.appearance().barTintColor = toolbarBackground
         UIToolbar.appearance().tintColor = barItemTintColor
         UIToolbar.appearance().barStyle = barStyle
-        UIToolbar.appearance().translucent = translucent
+//        UIToolbar.appearance().translucent = translucent
     }
 }
