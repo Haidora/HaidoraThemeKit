@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kfK-WP-55L">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kfK-WP-55L">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
@@ -24,7 +25,7 @@
         <!--1-->
         <scene sceneID="2Lh-6J-YR8">
             <objects>
-                <viewController id="gRO-tM-tUy" customClass="ViewControllerOC" sceneMemberID="viewController">
+                <viewController id="gRO-tM-tUy" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vc5-Nc-5Fr"/>
                         <viewControllerLayoutGuide type="bottom" id="BdQ-sM-vQr"/>
@@ -45,7 +46,7 @@
         <!--View Controller-->
         <scene sceneID="mHZ-qJ-neN">
             <objects>
-                <viewController id="2ph-79-uSM" customClass="ViewController" customModule="HaidoraThemeKit_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2ph-79-uSM" customClass="HDViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7eo-o5-f84"/>
                         <viewControllerLayoutGuide type="bottom" id="9DS-7m-6tP"/>
@@ -62,7 +63,7 @@
                                 </constraints>
                             </switch>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="z97-yE-d0U">
-                                <rect key="frame" x="139" y="84" width="173" height="3"/>
+                                <rect key="frame" x="139" y="84.5" width="173" height="3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="3" id="gbR-yp-Ixf"/>
                                 </constraints>
@@ -123,6 +124,12 @@
                                     <segment title="Second"/>
                                 </segments>
                             </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ead-i5-w3s">
+                                <rect key="frame" x="258" y="390" width="54" height="30"/>
+                                <state key="normal" title="Change">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -137,6 +144,7 @@
                             <constraint firstItem="z97-yE-d0U" firstAttribute="centerY" secondItem="3wZ-Yq-x3r" secondAttribute="centerY" id="OHi-0Z-uHe"/>
                             <constraint firstAttribute="trailing" secondItem="RZP-l8-yMM" secondAttribute="trailing" constant="8" id="PJq-He-zpm"/>
                             <constraint firstItem="yQ7-78-ZPb" firstAttribute="leading" secondItem="xLu-2W-70D" secondAttribute="leading" constant="8" id="QJX-yo-nYW"/>
+                            <constraint firstAttribute="trailing" secondItem="ead-i5-w3s" secondAttribute="trailing" constant="8" id="REC-Vt-Cnz"/>
                             <constraint firstItem="z97-yE-d0U" firstAttribute="leading" secondItem="3wZ-Yq-x3r" secondAttribute="trailing" constant="8" id="S3Q-db-OQn"/>
                             <constraint firstItem="yQ7-78-ZPb" firstAttribute="top" secondItem="1gn-1C-tfA" secondAttribute="bottom" constant="10" id="SB4-3y-s1R"/>
                             <constraint firstItem="Kok-mB-OMu" firstAttribute="leading" secondItem="xLu-2W-70D" secondAttribute="leading" constant="8" id="SMQ-Rr-gRl"/>
@@ -147,6 +155,7 @@
                             <constraint firstItem="nhY-Y9-2Ya" firstAttribute="centerY" secondItem="1gn-1C-tfA" secondAttribute="centerY" id="jWx-9h-yQc"/>
                             <constraint firstItem="1gn-1C-tfA" firstAttribute="top" secondItem="3wZ-Yq-x3r" secondAttribute="bottom" constant="8" id="nQN-ht-2q9"/>
                             <constraint firstItem="3wZ-Yq-x3r" firstAttribute="top" secondItem="7eo-o5-f84" secondAttribute="bottom" constant="8" id="scL-f0-Gch"/>
+                            <constraint firstItem="9DS-7m-6tP" firstAttribute="top" secondItem="ead-i5-w3s" secondAttribute="bottom" constant="16" id="uCD-uW-NDd"/>
                             <constraint firstItem="Kok-mB-OMu" firstAttribute="top" secondItem="lay-1T-cNW" secondAttribute="bottom" constant="8" id="vEA-1Y-PNs"/>
                         </constraints>
                     </view>

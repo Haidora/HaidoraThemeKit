@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+               BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "HaidoraThemeKit_Example.app"
                BlueprintName = "HaidoraThemeKit_Example"
-               ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "HaidoraThemeKit_Tests.xctest"
-               BlueprintName = "HaidoraThemeKit_Tests"
                ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BlueprintIdentifier = "6003F5AD195388D20070C39A"
                BuildableName = "HaidoraThemeKit_Tests.xctest"
                BlueprintName = "HaidoraThemeKit_Tests"
                ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
@@ -56,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HaidoraThemeKit_Example.app"
             BlueprintName = "HaidoraThemeKit_Example"
             ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
@@ -76,7 +62,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HaidoraThemeKit_Example.app"
             BlueprintName = "HaidoraThemeKit_Example"
             ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
@@ -95,7 +81,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BlueprintIdentifier = "6003F589195388D20070C39A"
             BuildableName = "HaidoraThemeKit_Example.app"
             BlueprintName = "HaidoraThemeKit_Example"
             ReferencedContainer = "container:HaidoraThemeKit.xcodeproj">
