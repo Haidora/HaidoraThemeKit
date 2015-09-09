@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "HaidoraThemeKit"
-    s.version          = "0.1.0"
+    s.version          = "0.1.1"
     s.summary          = "UIKit appearance 的封装."
     s.description      = <<-DESC
                             UIKit appearance 的封装,方便切换全局风格.
