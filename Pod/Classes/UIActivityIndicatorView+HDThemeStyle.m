@@ -13,15 +13,12 @@
 
 + (void)applyHDTheme
 {
-    [UIActivityIndicatorView applyHDTheme:[HDThemeKit shareInstance].primaryColor
-               activityIndicatorViewStyle:UIActivityIndicatorViewStyleGray];
+    [UIActivityIndicatorView applyHDTheme:[HDThemeKit shareInstance].primaryColor];
 }
 
 + (void)applyHDTheme:(UIColor *)activityColor
-    activityIndicatorViewStyle:(UIActivityIndicatorViewStyle)activityIndicatorViewStyle
 {
     [UIActivityIndicatorView appearance].color = activityColor;
-    [UIActivityIndicatorView appearance].activityIndicatorViewStyle = activityIndicatorViewStyle;
 }
 
 @end

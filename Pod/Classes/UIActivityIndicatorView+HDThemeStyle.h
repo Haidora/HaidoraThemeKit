@@ -17,7 +17,6 @@
  *  @param activityColor
  *  @param activityIndicatorViewStyle
  */
-+ (void)applyHDTheme:(UIColor *)activityColor
-    activityIndicatorViewStyle:(UIActivityIndicatorViewStyle)activityIndicatorViewStyle;
++ (void)applyHDTheme:(UIColor *)activityColor;
 
 @end
